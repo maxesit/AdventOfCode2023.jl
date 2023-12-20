@@ -1,5 +1,6 @@
 name = "AdventOfCode2023"
-authors = ["Alexander Seiler <seileralex@gmail.com>"]
+uuid = "1fc620ea-0861-4e7a-ba24-bf422cde8adb"
+authors = ["Marko Polic <mpolic2000@gmail.com>"]
 version = "0.1.0"
 
 
