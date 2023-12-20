@@ -6,7 +6,7 @@ project_hash = "f5ad833d4f5ddcbcbbb1d01f093dbf93ddbec73a"
 
 [[deps.AdventOfCode2023]]
 deps = ["BenchmarkTools", "DataStructures", "Memoize", "Printf"]
-git-tree-sha1 = "6175c6f3c1997a45dce2f15dfc1e68d6226b8dd8"
+git-tree-sha1 = "2b0b03efb403baf7a7b651e5f41525f692b9bb35"
 repo-rev = "main"
 repo-url = "https://github.com/maxesit/AdventOfCode2023.jl"
 uuid = "1fc620ea-0861-4e7a-ba24-bf422cde8adb"
