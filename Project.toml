@@ -1,4 +1,6 @@
 name = "AdventOfCode2023"
+authors = ["Alexander Seiler <seileralex@gmail.com>"]
+version = "0.1.0"
 
 
 [deps]
@@ -7,6 +9,8 @@ DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
+[compat]
+julia = "1.8"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
