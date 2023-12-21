@@ -22,7 +22,8 @@ function parseInput(input) # matrix |-1 = S|0 = .|1 = #|
                 vtemp[i] = -1;
             end;
         end;
-        data[lcount,:] = transpose(vtemp);
+	print(size(vtemp)," | ")	
+#        data[lcount,:] = transpose(vtemp);
         lcount +=1;
     end;
     return data;
