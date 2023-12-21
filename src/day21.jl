@@ -52,7 +52,7 @@ function FindStep(data::Matrix{Int8},maxSteps::Int,reached::Vector{Tuple{Int,Int
         end;
         reached = reached_new;
     end;
-return size(reached,1),reached;
+return size(reached,1);
 end;
 
 end; # module Day21
