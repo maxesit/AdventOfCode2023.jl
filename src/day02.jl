@@ -1,3 +1,4 @@
+module Day02
 using AdventOfCode2023
 
     # BIG THANKS TO "github.com/goggle", using his way  of reading input made everything so much easier

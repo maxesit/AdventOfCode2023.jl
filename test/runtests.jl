@@ -10,3 +10,7 @@ using Test
     @test AdventOfCode2023.Day02.day02(sample) == [8, 2286]
     @test AdventOfCode2023.Day02.day02() == [2486, 87984]
 end
+
+@testset "Day 4" begin
+    @test AdventOfCode2023.Day02.day02() == [2486, 87984]
+end
