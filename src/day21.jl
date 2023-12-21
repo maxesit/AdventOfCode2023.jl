@@ -9,7 +9,7 @@ function day21(input::String = readInput(joinpath(@__DIR__,"..","data","day21.tx
 end;
 
 function parseInput(input) # matrix |-1 = S|0 = .|1 = #|
-    data = Matrix{Int8}(undef,size(split(rstrip(input),"\n"),1),round(Int,(length(input)/size(split(rstrip(input),"\n"),1)-1))) # fix
+    data = Matrix{Int8}(undef,131,131) # for this specific problem = 131x131 matrix
     lcount = 1;
     for line ∈ split(rstrip(input),"\n")
         vtemp = zeros(Int8,length(line))
