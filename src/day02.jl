@@ -57,6 +57,7 @@ function Task1(data::Dict{Int,Vector{Tuple{Int,Int,Int}}})
         end;
     end;
     return idsum;
+end; 
 end; # module day02
 
 # testa = (maximum(x -> x[i], values(data[1])) for i ∈ 1:3)

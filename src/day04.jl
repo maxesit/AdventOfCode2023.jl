@@ -42,4 +42,5 @@ function Task1(data::Dict{Int,Vector{Any}})
     end;
 
     return sum;
-end # module day04
+end;
+end;  # module day04
