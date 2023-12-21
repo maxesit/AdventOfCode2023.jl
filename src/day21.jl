@@ -1,7 +1,7 @@
 module Day21
 using AdventOfCode2023
 
-function day04(input::String = readInput(joinpath(@__DIR__,"..","data","day21.txt")))
+function day21(input::String = readInput(joinpath(@__DIR__,"..","data","day21.txt")))
     data = parseInput(input)
     t1 = Task1(data)
 #    t2 = Task2(data)
