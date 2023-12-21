@@ -20,6 +20,7 @@ function parseInput(input)
         push!(v,(vec_1,vec_2))
         data[card_id] = v
     end;
+    return data;
 end
 
 function Task1(data::Dict{Int,Vector{Any}})
